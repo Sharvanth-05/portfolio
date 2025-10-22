@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import BottomBar from "@/components/BottomBar";
 import { Analytics } from '@vercel/analytics/next';
-
+import localFont from 'next/font/local';
 
 export const metadata = {
   title: "Sharvanth Rapolu",
