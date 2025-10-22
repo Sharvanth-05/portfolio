@@ -1,12 +1,7 @@
 import "./globals.css";
 import "./animation.css";
-import localFont from "next/font/local"
 import Header from "@/components/Header";
 import BottomBar from "@/components/BottomBar";
-
-const productSans = localFont({
-  src:'../../public/fonts/PRODUCTSANS-REGULAR.ttf'
-})
 
 export const metadata = {
   title: "Sharvanth Rapolu",
@@ -15,8 +10,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={productSans.className}>
-      <body style={{backgroundColor:"black" }}>
+    <html lang="en">
+      <body style={{backgroundColor:"black", fontFamily:"Product Sans"}}>
         <div>
           <Header />
         </div>
