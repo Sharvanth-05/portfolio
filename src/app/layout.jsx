@@ -3,7 +3,6 @@ import "./animation.css";
 import Header from "@/components/Header";
 import BottomBar from "@/components/BottomBar";
 
-
 export const metadata = {
   title: "Sharvanth Rapolu",
   description: "It's about me",
