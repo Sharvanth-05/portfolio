@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "./Header";
-import BottomBar from "./BottomBar";
 import Intro from "./Intro";
 
 export default function Home()
