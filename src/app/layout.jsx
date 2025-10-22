@@ -1,11 +1,9 @@
 import "./globals.css";
-import "./animation.css";
+
 import Header from "@/components/Header";
 import BottomBar from "@/components/BottomBar";
+import { Analytics } from '@vercel/analytics/next';
 
-const productSans = localFont({
-  src:'../../public/fonts/PRODUCTSANS-REGULAR.ttf'
-})
 
 export const metadata = {
   title: "Sharvanth Rapolu",
