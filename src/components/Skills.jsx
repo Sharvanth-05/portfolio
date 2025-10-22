@@ -10,10 +10,10 @@ export default function Skills() {
         </h1>
       </div>
       <div className="flex flex-wrap justify-around mt-5 p-5 gap-5">
-        <Image src="/images/logos/java.png" alt="HTML5 Icon" width={65} height={65} />
+        <Image src="/images/logos/java.png" alt="Java Icon" width={65} height={65} />
         <Image
-          src="/images/spring.png"
-          alt="HTML5 Icon"
+          src="/images/logos/spring.png"
+          alt="Spring Icon"
           width={65}
           height={65}
         />
@@ -24,7 +24,7 @@ export default function Skills() {
           height={65}
         />
         <Image src="/images/logos/html.png" alt="HTML5 Icon" width={65} height={65} />
-        <Image src="/images/css.png" alt="Css Icon" width={65} height={65} />
+        <Image src="/images/logos/css.png" alt="Css Icon" width={65} height={65} />
         <Image
           src="/images/logos/js.png"
           alt="Java script Icon"
