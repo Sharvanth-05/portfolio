@@ -28,7 +28,7 @@ export default function BottomBar() {
   ];
 
   return (
-    <nav className="bg-black/30 backdrop-blur-3xl h-15 fixed bottom-4 left-1/2 -translate-x-1/2 flex items-center justify-between gap-4 border-2 border-neutral-700 rounded-full px-6 z-50">
+    <nav className="transition-all bg-black/30 backdrop-blur-3xl h-15 fixed bottom-4 left-1/2 -translate-x-1/2 flex items-center justify-between gap-4 border-2 border-neutral-700 rounded-full px-6 z-50">
       {navItems.map(({ href, icon: Icon, activeIcon: ActiveIcon }) => {
         const isActive = pathname === href;
 
@@ -36,7 +36,7 @@ export default function BottomBar() {
           <Link
             key={href}
             href={href}
-            className={`transition-all hover:text-yellow-400 hover:border-amber-400 duration-300 hover:scale-120 ${
+            className={`transition-all hover:text-yellow-400 hover:border-amber-400 duration-100 hover:scale-120 ${
               isActive ? "text-white border-b-2 border-white pb-1" : "text-neutral-300"
             }`}
           >

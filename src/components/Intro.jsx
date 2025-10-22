@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import About from "./About";
 
 export default function Intro() {
   return (
@@ -58,6 +59,7 @@ export default function Intro() {
           Know a bit about me
         </h1>
       </div>
+      <About />
     </div>
   );
 }
