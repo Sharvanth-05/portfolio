@@ -8,7 +8,7 @@ export default function Intro() {
     <div className="w-dvw flex  flex-col items-center ">
       <div className="relative mask-b-from-15 md:mask-b-from-35.5 w-dvw h-[200px] sm:h-dvh">
         <Image
-          src="/images/background.jpg"
+          src="/images/logos/background.jpg"
           alt="Sharvanth Rapolu's image"
           fill
           style={{ objectFit: "cover" }}

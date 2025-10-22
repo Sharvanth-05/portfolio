@@ -10,7 +10,7 @@ export default function Skills() {
         </h1>
       </div>
       <div className="flex flex-wrap justify-around mt-5 p-5 gap-5">
-        <Image src="/images/java.png" alt="HTML5 Icon" width={65} height={65} />
+        <Image src="/images/logos/java.png" alt="HTML5 Icon" width={65} height={65} />
         <Image
           src="/images/spring.png"
           alt="HTML5 Icon"
@@ -18,27 +18,27 @@ export default function Skills() {
           height={65}
         />
         <Image
-          src="/images/pg.png"
+          src="/images/logos/pg.png"
           alt="postgresql Icon"
           width={65}
           height={65}
         />
-        <Image src="/images/html.png" alt="HTML5 Icon" width={65} height={65} />
+        <Image src="/images/logos/html.png" alt="HTML5 Icon" width={65} height={65} />
         <Image src="/images/css.png" alt="Css Icon" width={65} height={65} />
         <Image
-          src="/images/js.png"
+          src="/images/logos/js.png"
           alt="Java script Icon"
           width={65}
           height={65}
         />
         <Image
-          src="/images/node.png"
+          src="/images/logos/node.png"
           alt="Nodejs Icon"
           width={65}
           height={65}
         />
         <Image
-          src="/images/express.png"
+          src="/images/logos/express.png"
           alt="Expressjs Icon"
           width={65}
           height={65}
@@ -46,7 +46,7 @@ export default function Skills() {
           className="border rounded-full"
         />
         <Image
-          src="/images/nextjs.png"
+          src="/images/logos/nextjs.png"
           alt="HTML5 Icon"
           width={65}
           height={65}
@@ -54,7 +54,7 @@ export default function Skills() {
           className="border rounded-full"
         />
         <Image
-          src="/images/github.png"
+          src="/images/logos/github.png"
           alt="Css Icon"
           width={65}
           height={65}
