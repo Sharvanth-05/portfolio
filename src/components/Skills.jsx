@@ -10,9 +10,9 @@ export default function Skills() {
         </h1>
       </div>
       <div className="flex flex-wrap justify-around mt-5 p-5 gap-5">
-        <Image src="/images/logos/java.png" alt="HTML5 Icon" width={65} height={65} />
+        <Image src="/images/logos/java.png" alt="Java Icon" width={65} height={65} />
         <Image
-          src="/images/logos/spring.png"
+          src="/images/spring.png"
           alt="HTML5 Icon"
           width={65}
           height={65}
