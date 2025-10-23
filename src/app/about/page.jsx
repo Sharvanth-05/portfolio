@@ -114,7 +114,7 @@ export default function Page() {
             </div>
             <div className="flex w-full p-2">
               <a
-                href=""
+                href="https://drive.google.com/file/d/14GKU9Vj709aOItUsgdNTrr7UwXTIb8z9/view?usp=sharing"
                 className="bg-gradient-to-br from-yellow-400 to-yellow-600 w-full rounded-lg text-center p-1 font-bold"
               >
                 Resume
