@@ -10,7 +10,7 @@ export default function About() {
           alt="An Image of me"
           height={400}
           width={300}
-          className="md:h-100 md:w-75"
+          className="md:h-100 md:w-75 rounded-3xl"
         />
       </div>
       <div className="flex flex-col items-center justify-around h-[400px]  md:w-3/4 pb-5 pl-5 pr-5 text-justify">

@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import BottomBar from "@/components/BottomBar";
 import { Analytics } from '@vercel/analytics/next';
 import localFont from 'next/font/local';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "Sharvanth Rapolu",
@@ -17,7 +18,7 @@ export default function RootLayout({ children }) {
         <div>
           <Header />
         </div>
-        <div className="pt-[80px]">{children} <Analytics /></div>
+        <div className="pt-[80px]">{children} <Analytics /> <SpeedInsights /></div>
         <div className="mt-[100px]">
             <BottomBar />
         </div>
